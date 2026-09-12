@@ -13,4 +13,46 @@ CrowdLens is a backend system designed to analyze crowd behavior from video inpu
 
 ## Project Structure
 
+CrowdLens/
+│
+├── app.py
+├── crowd_detection.py
+├── requirements.txt
+├── README.md
+│
+├── models/
+│   └── ...
+│
+├── input/
+    └── crowd_video.mp4
+
+##How the system works
+
+Video Input
+     ↓
+Frame Extraction using OpenCV
+     ↓
+Crowd Detection / Person Detection
+     ↓
+Count People in Each Frame
+     ↓
+Analyze Crowd Density / Changes
+     ↓
+Detect Potential Anomalies
+     ↓
+Store Results with Timestamp
+     ↓
+CSV / Flask API
+     ↓
+Frontend Dashboard
+
+
+
+Technologies Used
+Python – Core programming language
+OpenCV – Video processing and frame extraction
+Machine Learning / Deep Learning – Person and crowd behavior detection
+Flask – Backend REST API
+Pandas / CSV – Storing and processing analysis results
+
 
