@@ -26,7 +26,16 @@ CrowdLens/
 ├── input/
     └── crowd_video.mp4
 
-##How the system works
+    
+**Technologies Used**
+Python – Core programming language
+OpenCV – Video processing and frame extraction
+Machine Learning / Deep Learning – Person and crowd behavior detection
+Flask – Backend REST API
+Pandas / CSV – Storing and processing analysis result
+
+
+**##How the system works**
 
 Video Input
      ↓
@@ -46,13 +55,5 @@ CSV / Flask API
      ↓
 Frontend Dashboard
 
-
-
-Technologies Used
-Python – Core programming language
-OpenCV – Video processing and frame extraction
-Machine Learning / Deep Learning – Person and crowd behavior detection
-Flask – Backend REST API
-Pandas / CSV – Storing and processing analysis results
 
 
